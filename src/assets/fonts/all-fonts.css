@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "PlusJakartaSans200";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-ExtraLight.ttf);
+}
+
+.PlusJakartaSans200 {
+  font-family: var(--PlusJakarta-extraLight) !important;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans300";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-Light.ttf);
+}
+
+.PlusJakartaSans300 {
+  font-family: var(--PlusJakarta-light) !important;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans400";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf);
+}
+
+.PlusJakartaSans400 {
+  font-family: var(--PlusJakarta-regular) !important;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans500";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf);
+}
+
+.PlusJakartaSans500 {
+  font-family: var(--PlusJakarta-medium) !important;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans600";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf);
+}
+
+.PlusJakartaSans600 {
+  font-family: var(--PlusJakarta-semibold) !important;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans700";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf);
+}
+
+.PlusJakartaSans700 {
+  font-family: var(--PlusJakarta-bold) !important;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans800";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf);
+}
+
+.PlusJakartaSans800 {
+  font-family: var(--PlusJakarta-extraBold) !important;
+}

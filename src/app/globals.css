@@ -1,0 +1,35 @@
+@import url(../assets/fonts/all-fonts.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --PlusJakarta-extraLight: "PlusJakartaSans200";
+  --PlusJakarta-light: "PlusJakartaSans300";
+  --PlusJakarta-regular: "PlusJakartaSans400";
+  --PlusJakarta-medium: "PlusJakartaSans500";
+  --PlusJakarta-semibold: "PlusJakartaSans600";
+  --PlusJakarta-bold: "PlusJakartaSans700";
+  --PlusJakarta-extraBold: "PlusJakartaSans800";
+  --white: white;
+  --black: black;
+  --body: #fafafa;
+  --body-light: #f8f8f8;
+  --sidebar-text: #8e92bc;
+  --secondry-text: #54577a;
+  --Secondary-500: #141522;
+  --Primary-500: #546fff;
+  --Secondary-300: #9c9ca4;
+  --Activity-body: #f5f5f7;
+  --Secondary-400: #54577a;
+  --link-color:#04A4F4;
+}
+
+body {
+  color: var(--black);
+  background: var(--body);
+}
+
+.react-calendar button span div abbr {
+  font-family: var(--PlusJakarta-semibold) !important;
+}
